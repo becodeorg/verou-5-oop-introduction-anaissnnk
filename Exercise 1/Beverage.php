@@ -17,7 +17,7 @@ class Beverage
         $this->temperature= "cold";
     }
     // Function
-    public function getInto () {
+    public function getInfo () {
         echo "This beverage is $this->temperature and $this->color.";
         echo "<br>";
         echo "The temperature is $this->temperature.";
@@ -25,7 +25,7 @@ class Beverage
 }
 
 $cola = new Beverage("black", 2.00, "");
-$cola->getInto();
+$cola->getInfo();
 
 
 
