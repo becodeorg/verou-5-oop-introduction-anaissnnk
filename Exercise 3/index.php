@@ -32,15 +32,3 @@ echo "<br>";
 echo "The color is $duvel->color";
 echo "<br>";
 $duvel->displayBeerInfo();
-
-
-/* EXERCISE 3
-
-TODO: Create a new private method in the Beer class called beerInfo which returns "Hi i'm Duvel and have an alcochol percentage of 8.5 and I have a light color."
-
-Make sure that you use the variables and not just this text line.
-
-TODO: Print this method on the screen on a new line.
-
-USE TYPEHINTING EVERYWHERE!
-*/
