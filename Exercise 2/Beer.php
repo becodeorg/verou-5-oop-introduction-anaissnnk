@@ -23,4 +23,4 @@ $duvel->getInfo();
 echo "<br>";
 $duvel->getAlcoholPercentage();
 echo "<br>";
-echo "The color is $duvel->color";
+echo "The color is " . $duvel->getColor();

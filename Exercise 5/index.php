@@ -5,9 +5,9 @@ declare(strict_types=1);
 class Beverage
 {
     // Properties
-    protected $color;
-    protected $price;
-    protected $temperature;
+    private $color;
+    private $price;
+    private $temperature;
 
     //Constructor
     public function __construct(string $color, float $price, string $temperature)
@@ -15,15 +15,6 @@ class Beverage
         $this->color=$color;
         $this->price=$price;
         $this->temperature= "cold";
-    }
-    public function getColor() {
-        return $this->color;
-    }
-    public function setColor(string $color) {
-        $this->color = $color;
-    }
-    public function getTemperature() {
-        $this->temperature;
     }
     // Function
     public function getInfo () {
@@ -33,8 +24,11 @@ class Beverage
 }
 }
 
-$cola = new Beverage("black", 2.00, "");
-$cola->getInfo();
+/* EXERCISE 5
 
+Copy the class of exercise 1.
 
-
+TODO: Change the properties to private.
+TODO: Fix the errors without using getter and setter functions.
+TODO: Change the price to 3.5 euro and print it also on the screen on a new line.
+*/
