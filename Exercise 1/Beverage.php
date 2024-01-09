@@ -19,9 +19,6 @@ class Beverage
     public function getColor() {
         return $this->color;
     }
-    public function setColor(string $color) {
-        $this->color = $color;
-    }
     public function getTemperature() {
         $this->temperature;
     }
