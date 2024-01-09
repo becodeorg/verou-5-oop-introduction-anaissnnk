@@ -24,8 +24,8 @@ class Beverage
 }
 }
 
-$cola = new Beverage("black", 2.00, "");
-$cola->getInfo();
+// $cola = new Beverage("black", 2.00, "");
+// $cola->getInfo();
 
 
 
